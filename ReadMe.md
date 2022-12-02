@@ -6,16 +6,24 @@ __Небольной проект криптокошелька с блокчей
 - __Newtonsoft.Json 13.0.1__ https://www.nuget.org/packages/Newtonsoft.Json - Использовалась, как более производительная альтернатива встроенной системной библиотеки __System.Text.Json__
 
 ## Установка библиотек:
-```
+``` 
 dotnet add package NBitcoin --version 6.0.18
 dotnet add package Newtonsoft.Json --version 13.0.1
 ```
 
 ## Запуск
-```
-git clone https://github.com/Amonlol/CryptoWallet
---Открыть с помощью Visual Studio и скомпилировать
-```
+1. Склонировать репозиторий
+    ``` git
+    git clone https://github.com/Amonlol/CryptoWallet
+    ```
+2. Установить внешние библиотеки
+    ``` git
+    dotnet add package NBitcoin --version 6.0.18
+    dotnet add package Newtonsoft.Json --version 13.0.1
+    ```
+3. Открыть с помощью Visual Studio и скомпилировать проект
+4. Запустить сервер Server/bin/Debug/Server.exe (дебаг) либо Server/bin/Release/Server.exe (релиз)
+5. Запустить клиентское приложение ClientUI/bin/Debug/ClientUI.exe (дебаг) либо ClientUI/bin/Release/ClientUI.exe (релиз)
 
 ## Структура папок:
 ```
